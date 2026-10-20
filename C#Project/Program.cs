@@ -41,6 +41,7 @@ class Program
             else if (choice == "5")
                 ATM.Start();
             else if (choice == "6")
+
             {
                 // ვქმნით StudentManager კლასის ობიექტს.
                 StudentManager studentManager = new StudentManager();

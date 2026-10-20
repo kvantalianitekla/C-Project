@@ -3,7 +3,7 @@ using System;
 
 class Calculator
 {
-   
+
     // ამ მეთოდში მომხმარებელს ვაჩვენებთ კალკულატორის მენიუს
     // და ვამუშავებთ მის არჩევანს.
     public static void Start()

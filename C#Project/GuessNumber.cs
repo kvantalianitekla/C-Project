@@ -3,7 +3,7 @@ using System;
 
 class GuessNumber
 {
-    
+
     // ამ მეთოდში იქმნება შემთხვევითი რიცხვი და მომხმარებელი ცდილობს მის გამოცნობას.
     public static void Start()
     {
