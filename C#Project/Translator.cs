@@ -5,7 +5,7 @@ using System.Text;
 
 class Translator
 {
-   
+
     // აქ მომხმარებელს შეუძლია თარგმანის მოძებნა ან ახალი თარგმანის დამატება.
     public static void Start()
     {

@@ -4,7 +4,7 @@ using System;
 
 class Person
 {
-    
+
     public string Name { get; set; }
 
     // კონსტრუქტორი, რომელიც ობიექტის შექმნისას სახელს იღებს.
@@ -31,8 +31,8 @@ class Student : Person
     // base(name) იძახებს მშობელი კლასის (Person) კონსტრუქტორს.
     public Student(string name, int rollNumber, char grade) : base(name)
     {
-        this.rollNumber = rollNumber; 
-        this.grade = grade;           
+        this.rollNumber = rollNumber;
+        this.grade = grade;
     }
 
     // RollNumber თვისება აბრუნებს სტუდენტის ნომერს.

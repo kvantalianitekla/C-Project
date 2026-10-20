@@ -3,7 +3,7 @@ using System;
 
 class Hangman
 {
-    
+
     // ამ მეთოდში მომხმარებელი ცდილობს დამალული სიტყვის გამოცნობას.
     public static void Start()
     {
