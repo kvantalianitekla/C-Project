@@ -15,7 +15,8 @@ class Program
             Console.WriteLine("3. Hangman");
             Console.WriteLine("4. Translator");
             Console.WriteLine("5. ATM");
-            Console.WriteLine("6. Exit");
+            Console.WriteLine("6. Student Management");
+            Console.WriteLine("7. Exit");
             Console.WriteLine();
 
             Console.Write("Choose an option: ");
@@ -31,20 +32,22 @@ class Program
             }
             else if (choice == "3")
             {
-                Console.WriteLine("Hangman - coming soon.");
-                Console.WriteLine();
+                Hangman.Start();
             }
             else if (choice == "4")
             {
-                Console.WriteLine("Translator - coming soon.");
-                Console.WriteLine();
+                Translator.Start();
             }
             else if (choice == "5")
             {
-                Console.WriteLine("ATM - coming soon.");
-                Console.WriteLine();
+                ATM.Start();
             }
             else if (choice == "6")
+            {
+                StudentManager studentManager = new StudentManager();
+                studentManager.Start();
+            }
+            else if (choice == "7")
             {
                 running = false;
             }
